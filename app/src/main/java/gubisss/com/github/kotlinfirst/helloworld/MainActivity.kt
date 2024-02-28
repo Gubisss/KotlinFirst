@@ -17,12 +17,9 @@ class MainActivity : ComponentActivity () {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        //Criando um objeto de texto
-        val texto = TextView(this)
-        texto.text = "Hello Kotlin"
 
         //definindo o conteudo da tela
-        setContentView(texto)
+        setContentView(R.layout.activity_main)
     }
 
 }
